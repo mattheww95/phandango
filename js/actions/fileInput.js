@@ -66,6 +66,7 @@ const analyseIncomingData = (fileName, fileContents) => {
   case 'newick': // fallthrough
   case 'new': // fallthrough
   case 'nwk': // fallthrough
+  case 'treefile': //fallthrough
   case 'tree': // fallthrough
   case 'tre':
     if (fileContents.startsWith('#NEXUS')) {
